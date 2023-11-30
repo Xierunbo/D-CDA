@@ -1,0 +1,15 @@
+{
+  "patch_size": 32,
+  "augmentation": true,
+  "num_gpus": 1,
+  "num_workers": 8,
+  "num_channel": 3,
+  "EF": false,
+  "epochs": 100,
+  "batch_size": 16,
+  "learning_rate": 1e-5,
+  "loss_function": "hybrid",
+  "dataset_dir": "./dataset_denoise_32/",
+  "weight_dir": "./outputs/",
+  "log_dir": "./log/"
+}

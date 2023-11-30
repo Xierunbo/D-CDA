@@ -1,0 +1,24 @@
+p = float(input('输入P:'))
+r = float(input('输入R:'))
+# oa = float(input('输入oa:'))
+# b = (1-p)/p
+# c = (1-r)/r
+iou = (p * r)/(p+r-(p*r))
+# a = (p+r-(2*p*r))
+F1 = 2 * p * r / (p + r)
+
+# tp = iou * (1+b+c)
+# fp = tp * b
+# fn = tp * c
+# tn = 1024-(tp + fp + fn)
+# OA = 
+# tn = ((oa + (oa *a)-1) / (1-oa)) *tp
+# iou2 = tn / (tn + fp + fn)
+# miou = (iou + iou2)/2
+print('iou=',iou)
+# print('a=',a)
+# print('tp=',tp)
+# print('iou2=',iou2)
+# print('F1=',F1)
+# print('OA=',OA)
+# print('miou=',miou)

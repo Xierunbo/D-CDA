@@ -1,0 +1,3 @@
+,Noisy Image PSNR(dB),Noisy Image SSIM,Denoised Image PSNR(dB),Denoised Image SSIM
+1.png,inf,1.0,22.39254379272461,0.2560388743877411
+2.png,inf,1.0,22.52468490600586,0.3556102514266968
