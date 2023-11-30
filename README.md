@@ -1,4 +1,5 @@
 # D-CDA
+First, input the dataset into SDNet to obtain the denoised images, and then input the denoised images into CAFNet to obtain the change detection results.
 ## SDNet
 ### Prerequisites
 - Python 3.6
